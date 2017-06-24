@@ -1,0 +1,22 @@
+@import url(css/links.css);
+
+html {
+    font-family: "Lato", sans-serif ;
+}
+body {
+	font-family: ;
+	color:#7d97a;
+	font-weight: 300em;
+}
+
+.logoimg {
+	margin-top: 80px;
+    width: 50%; 
+    height: 30%;
+}
+.thin {
+	font-weight: 100;
+}
+.fat {
+	font-weight: 300;
+}

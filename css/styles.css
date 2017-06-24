@@ -1,0 +1,80 @@
+@font-face{src:url(../fonts/RobotoLight.ttf);font-family: RobotoLight;font-weight: 2000; font-size:100;} 
+@font-face{font-family: vevey; src:url(../fonts/vevey.ttf);font-weight: normal;} 
+
+
+* { Box-sizing: Border-box ; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;} 
+
+ol,
+ul,
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+body {
+  font-size: 100%;
+  background: rgb(255,255,255);
+  overflow-x: hidden;
+  margin: auto;
+  padding: auto;
+  text-transform: uppercase;
+  color: #747784;
+  font-family: vevey;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 60px;
+    color: #2d3c49 ;
+    
+}
+h2 {
+    color: #02b3e4;
+}
+
+h3 {
+    color: #7d97ad;
+}
+
+p {
+  font-size: 10px;  
+  color: #2d3c49;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+hr {
+    border-bottom: 2px solid #747784;
+}
+.middle 
+img {
+  width: 90%;
+  height: auto;
+}
+
+hr {
+  width: 80%;
+  margin: 40px auto;
+}
+.footer { padding-bottom: 30px; }
+.footer a {
+  font-size: 2.1em;
+  color:  #02b3e4;
+}
+.footer p {
+  font-size: 2.1em;
+  color:  #02b3e4;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    h1,h2,h3,p {
+      
+
+    }
+}
+ 
+
